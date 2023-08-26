@@ -1,0 +1,4 @@
+rootProject.name = 'comment_rmv'
+include 'src:test:untitled'
+findProject(':src:test:untitled')?.name = 'untitled'
+
